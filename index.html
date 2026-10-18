@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vishav Book Publication | Work From Home Handwriting Projects</title>
+<meta name="description" content="Structured work-from-home handwriting projects across India. No experience needed. 50% advance payout, UPI payments, India-wide delivery.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap');
+#vbp-lp{--bg:#ffffff;--fg:#111111;--mut:#6b6b6b;--line:#e2e2e2;--soft:#f4f4f4;
+font-family:'Barlow',system-ui,sans-serif;color:var(--fg);background:var(--bg);line-height:1.55;font-size:16px}
+#vbp-lp *{box-sizing:border-box;margin:0;padding:0}
+#vbp-lp h1,#vbp-lp h2,#vbp-lp h3{font-family:'Bebas Neue',Arial Narrow,sans-serif;font-weight:400;letter-spacing:.02em;line-height:1}
+#vbp-lp .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+#vbp-lp .sec{padding:72px 0}
+#vbp-lp .eyebrow{font-size:11px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--mut)}
+#vbp-lp h1{font-size:clamp(42px,8vw,76px)}
+#vbp-lp h2{font-size:clamp(32px,5vw,50px);margin-top:12px}
+#vbp-lp h3{font-size:24px}
+#vbp-lp p.lead{color:var(--mut);margin-top:16px;max-width:620px}
+#vbp-lp .btn{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:14px 30px;font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;transition:transform .25s ease,background .25s ease;animation:vbpPulse 2.6s ease-out infinite}
+#vbp-lp .btn:hover{transform:scale(1.04);background:#000}
+#vbp-lp .btn.inv{background:#fff;color:#111;animation:none}
+#vbp-lp .btn.ghost{background:transparent;color:#111;border:1px solid var(--line);animation:none}
+@keyframes vbpPulse{0%{box-shadow:0 0 0 0 rgba(17,17,17,.35)}70%{box-shadow:0 0 0 14px rgba(17,17,17,0)}100%{box-shadow:0 0 0 0 rgba(17,17,17,0)}}
+#vbp-lp .grid{display:grid;gap:20px}
+@media(min-width:820px){#vbp-lp .g2{grid-template-columns:1fr 1fr}#vbp-lp .g3{grid-template-columns:repeat(3,1fr)}#vbp-lp .g4{grid-template-columns:repeat(4,1fr)}}
+#vbp-lp .card{border:1px solid var(--line);border-radius:18px;background:#fff;padding:26px;transition:transform .5s cubic-bezier(.22,1,.36,1),box-shadow .5s ease}
+#vbp-lp .card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(0,0,0,.08)}
+#vbp-lp .card.dark{background:#111;color:#fff;border-color:#111}
+#vbp-lp .num{font-family:'Bebas Neue',sans-serif;font-size:40px;color:var(--mut)}
+#vbp-lp .band{background:#111;color:#fff;text-align:center}
+#vbp-lp .soft{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+#vbp-lp .mark{background:#111;color:#fff;padding:0 8px}
+#vbp-lp .pills{list-style:none;display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:26px;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--mut)}
+#vbp-lp .marq{overflow:hidden;background:#111;color:#fff;padding:12px 0;border-top:1px solid #111;border-bottom:1px solid #111}
+#vbp-lp .marq-in{display:flex;width:max-content;animation:vbpMarq 26s linear infinite}
+#vbp-lp .marq span{padding:0 26px;font-size:11px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;white-space:nowrap}
+@keyframes vbpMarq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+#vbp-lp .imgbox{overflow:hidden;border:1px solid var(--line);border-radius:18px}
+#vbp-lp .imgbox img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(1.15) contrast(1.03);transition:transform .8s cubic-bezier(.22,1,.36,1)}
+#vbp-lp .imgbox:hover img{transform:scale(1.07)}
+#vbp-lp .float{animation:vbpFloat 6s ease-in-out infinite}
+@keyframes vbpFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+#vbp-lp .rev{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1)}
+#vbp-lp .rev.on{opacity:1;transform:none}
+#vbp-lp .price{font-family:'Bebas Neue',sans-serif;font-size:56px;line-height:1}
+#vbp-lp .row{display:flex;justify-content:space-between;font-size:14px;padding:6px 0}
+#vbp-lp .row span:first-child{color:var(--mut)}
+#vbp-lp .dark .row span:first-child{color:rgba(255,255,255,.7)}
+#vbp-lp details{border-bottom:1px solid var(--line);padding:18px 0}
+#vbp-lp summary{cursor:pointer;list-style:none;font-weight:600;font-size:18px;display:flex;justify-content:space-between;gap:16px}
+#vbp-lp summary::-webkit-details-marker{display:none}
+#vbp-lp summary::after{content:"+";color:var(--mut);transition:transform .3s ease}
+#vbp-lp details[open] summary::after{transform:rotate(45deg)}
+#vbp-lp details p{color:var(--mut);font-size:14px;margin-top:10px}
+#vbp-lp figure{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff}
+#vbp-lp figure img{display:block;width:100%;height:220px;object-fit:cover;filter:saturate(1.15) contrast(1.03);transition:transform .8s cubic-bezier(.22,1,.36,1)}
+#vbp-lp figure:hover img{transform:scale(1.07)}
+#vbp-lp figcaption{padding:18px;font-size:14px;color:var(--mut)}
+#vbp-lp .center{text-align:center}
+@media(prefers-reduced-motion:reduce){#vbp-lp *{animation:none!important;transition:none!important}#vbp-lp .rev{opacity:1;transform:none}}
+</style></head><body style="margin:0">
+<div id="vbp-lp">
+
+<section class="wrap sec">
+  <div class="grid g2" style="align-items:center;gap:40px">
+    <div class="rev">
+      <span class="eyebrow" style="border:1px solid var(--line);background:var(--soft);border-radius:999px;padding:7px 16px;display:inline-block">Government approved handwriting job</span>
+      <h1 style="margin-top:22px">Turn your handwriting into <span class="mark">assured earnings</span></h1>
+      <p class="lead">We provide structured work-from-home handwriting projects across India. No prior experience required. Suitable for students, homemakers and part-time workers.</p>
+      <div style="margin-top:28px;display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn" href="https://t.me/+dmiScDj0XzVlODll" target="_blank" rel="noopener">Join Telegram Now</a>
+        <a class="btn ghost" href="#vbp-plans">See Project Plans ↓</a>
+      </div>
+      <ul class="pills"><li>• Work From Home</li><li>• Flexible Timing</li><li>• Simple Handwriting</li><li>• Guidance Provided</li></ul>
+    </div>
+    <div class="grid" style="grid-template-columns:1fr 1fr;gap:16px">
+      <div class="imgbox float"><img src="https://project--c5508cb6-f374-4e84-be5d-98c58ba6af9d-dev.lovable.app/__l5e/assets-v1/687ac7c1-7ff5-4406-a6d6-6c78655b2d07/handwriting.jpg" alt="Neat handwriting sample in a notebook"></div>
+      <div class="imgbox" style="margin-top:40px"><img src="https://project--c5508cb6-f374-4e84-be5d-98c58ba6af9d-dev.lovable.app/__l5e/assets-v1/5f9c3f11-0c8c-4292-9694-ae546b3e1cd3/writer.jpg" alt="Woman writing a handwriting project at home"></div>
+    </div>
+  </div>
+</section>
+
+<div class="marq"><div class="marq-in">
+  <div style="display:flex"><span>Work From Home ✦</span><span>Flexible Timing ✦</span><span>Simple Handwriting ✦</span><span>Guidance Provided ✦</span><span>50% Advance ✦</span><span>India Wide ✦</span></div>
+  <div style="display:flex"><span>Work From Home ✦</span><span>Flexible Timing ✦</span><span>Simple Handwriting ✦</span><span>Guidance Provided ✦</span><span>50% Advance ✦</span><span>India Wide ✦</span></div>
+</div></div>
+
+<section class="wrap sec">
+  <p class="eyebrow">How it works</p>
+  <h2>Simple steps to get started.</h2>
+  <p class="lead">Choose a project, get approved, complete the writing, and submit your work within the time limit.</p>
+  <div class="grid g3" style="margin-top:36px">
+    <div class="card rev"><div class="num">01</div><h3 style="margin-top:12px">Select a Project</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">Choose from our Basic, Standard or Premium plans based on your capability.</p></div>
+    <div class="card rev"><div class="num">02</div><h3 style="margin-top:12px">Get Approved</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">Register successfully to receive your materials and 50% advance payout.</p></div>
+    <div class="card rev"><div class="num">03</div><h3 style="margin-top:12px">Submit &amp; Earn</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">Complete the writing within the time limit and receive your remaining 50% payout.</p></div>
+  </div>
+</section>
+
+<section class="band sec">
+  <div class="wrap rev">
+    <p class="eyebrow" style="color:rgba(255,255,255,.7)">Vacancy open now</p>
+    <h2>New handwriting projects available</h2>
+    <p style="margin:16px auto 0;max-width:620px;font-size:14px;opacity:.8">Fresh project vacancies are currently open. Apply today and receive complete details, guidelines and project allocation on Telegram.</p>
+    <a class="btn inv" style="margin-top:28px" href="https://t.me/+dmiScDj0XzVlODll" target="_blank" rel="noopener">Join Telegram Now</a>
+    <p style="margin-top:14px;font-size:12px;opacity:.6">Free to join · No credit card required</p>
+  </div>
+</section>
+
+<section class="wrap sec">
+  <div class="grid g2" style="align-items:center;gap:40px">
+    <div class="rev">
+      <p class="eyebrow">About Vishav Book Publication</p>
+      <h2>A genuine platform you can trust.</h2>
+      <p class="lead">Vishav Book Publication is an established platform providing structured Work From Home Handwriting Projects for candidates across India.</p>
+      <p class="lead">It is a 100% authentic platform. Our process is simple, professional and beginner-friendly.</p>
+      <ul style="list-style:none;margin-top:22px;font-size:14px"><li>— No prior experience required</li><li>— Available for candidates India-wide</li><li>— Support available for registered candidates</li></ul>
+    </div>
+    <div class="imgbox rev"><img src="https://project--c5508cb6-f374-4e84-be5d-98c58ba6af9d-dev.lovable.app/__l5e/assets-v1/78d78c49-db40-4697-bc7b-0ad5829eae74/notebooks.jpg" alt="Bundled handwritten notebooks ready for dispatch" style="height:460px"></div>
+  </div>
+</section>
+
+<section class="soft sec">
+  <div class="wrap grid g4">
+    <div class="card rev"><span class="eyebrow">01</span><h3 style="margin-top:10px">Work From Home</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">Complete the handwriting project from your home.</p></div>
+    <div class="card rev"><span class="eyebrow">02</span><h3 style="margin-top:10px">Flexible Timing</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">Choose writing hours that fit your daily schedule.</p></div>
+    <div class="card rev"><span class="eyebrow">03</span><h3 style="margin-top:10px">Simple Handwriting</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">Write neatly in Hindi or English.</p></div>
+    <div class="card rev"><span class="eyebrow">04</span><h3 style="margin-top:10px">Guidance Provided</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">Complete project guidelines are provided before you begin.</p></div>
+  </div>
+</section>
+
+<section class="wrap sec">
+  <p class="eyebrow">Inside the process</p>
+  <h2>From your desk to dispatch.</h2>
+  <div class="grid g3" style="margin-top:36px">
+    <figure class="rev"><img src="https://project--c5508cb6-f374-4e84-be5d-98c58ba6af9d-dev.lovable.app/__l5e/assets-v1/8f0ab6e1-b3b7-4a09-b222-f3b346539a5d/parcel.jpg" alt="Courier parcel with project materials"><figcaption>Materials couriered to your address</figcaption></figure>
+    <figure class="rev"><img src="https://project--c5508cb6-f374-4e84-be5d-98c58ba6af9d-dev.lovable.app/__l5e/assets-v1/5f9c3f11-0c8c-4292-9694-ae546b3e1cd3/writer.jpg" alt="Candidate writing at home"><figcaption>Write at home, at your own pace</figcaption></figure>
+    <figure class="rev"><img src="https://project--c5508cb6-f374-4e84-be5d-98c58ba6af9d-dev.lovable.app/__l5e/assets-v1/1aa7383a-097b-4a93-8978-fc9a7993ef11/payment.jpg" alt="Payment confirmation on a phone"><figcaption>UPI payout after verification</figcaption></figure>
+  </div>
+</section>
+
+<section class="wrap sec" id="vbp-plans">
+  <p class="eyebrow">Available project plans</p>
+  <h2>Available handwriting project plans.</h2>
+  <p class="lead">Choose a plan that fits your schedule and earning goals. Registration fees are fully transparent.</p>
+  <div class="grid g3" style="margin-top:36px">
+    <div class="card rev">
+      <span class="eyebrow">Plan 1</span><h3 style="margin-top:10px;font-size:30px">Basic Project</h3>
+      <p class="eyebrow" style="margin-top:16px">Project earning</p><div class="price">₹22,000</div>
+      <div style="border-top:1px solid var(--line);margin-top:18px;padding-top:12px">
+        <div class="row"><span>Pages</span><span>50 Pages</span></div>
+        <div class="row"><span>Time Limit</span><span>7 Days</span></div>
+        <div class="row"><span>Registration Fee</span><span>₹550</span></div>
+      </div>
+      <a class="btn" style="display:block;text-align:center;margin-top:22px;animation:none" href="https://t.me/+dmiScDj0XzVlODll" target="_blank" rel="noopener">Select Basic</a>
+    </div>
+    <div class="card dark rev">
+      <div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow" style="color:rgba(255,255,255,.7)">Plan 2</span><span style="background:#fff;color:#111;border-radius:999px;padding:4px 12px;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase">Most Popular</span></div>
+      <h3 style="margin-top:10px;font-size:30px">Standard Project</h3>
+      <p class="eyebrow" style="margin-top:16px;color:rgba(255,255,255,.7)">Project earning</p><div class="price">₹30,000</div>
+      <div style="border-top:1px solid rgba(255,255,255,.25);margin-top:18px;padding-top:12px">
+        <div class="row"><span>Pages</span><span>80 Pages</span></div>
+        <div class="row"><span>Time Limit</span><span>15 Days</span></div>
+        <div class="row"><span>Registration Fee</span><span>₹850</span></div>
+      </div>
+      <a class="btn inv" style="display:block;text-align:center;margin-top:22px" href="https://t.me/+dmiScDj0XzVlODll" target="_blank" rel="noopener">Select Standard</a>
+    </div>
+    <div class="card rev">
+      <span class="eyebrow">Plan 3</span><h3 style="margin-top:10px;font-size:30px">Premium Project</h3>
+      <p class="eyebrow" style="margin-top:16px">Project earning</p><div class="price">₹45,000</div>
+      <div style="border-top:1px solid var(--line);margin-top:18px;padding-top:12px">
+        <div class="row"><span>Pages</span><span>120 Pages</span></div>
+        <div class="row"><span>Time Limit</span><span>15–30 Days</span></div>
+        <div class="row"><span>Registration Fee</span><span>₹1,250</span></div>
+      </div>
+      <a class="btn" style="display:block;text-align:center;margin-top:22px;animation:none" href="https://t.me/+dmiScDj0XzVlODll" target="_blank" rel="noopener">Select Premium</a>
+    </div>
+  </div>
+</section>
+
+<section class="soft sec">
+  <div class="wrap">
+    <p class="eyebrow">Payment process</p>
+    <h2>Transparent &amp; simple payment process.</h2>
+    <div class="grid g3" style="margin-top:36px">
+      <div class="card rev"><div class="num">1</div><h3 style="margin-top:8px">50% Advance Payout</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">After your registration is completed and verified, the company releases a 50% advance payout within approximately 30 minutes.</p></div>
+      <div class="card rev"><div class="num">2</div><h3 style="margin-top:8px">Remaining 50% Payment</h3><p style="margin-top:8px;font-size:14px;color:var(--mut)">The remaining amount is released immediately after you complete the handwriting work and submit the project for checking.</p></div>
+      <div class="card dark rev">
+        <p class="eyebrow" style="color:rgba(255,255,255,.7)">Breakdown example</p>
+        <p style="margin-top:10px;font-size:14px;opacity:.8">Basic Plan · ₹22,000</p>
+        <div style="margin-top:16px">
+          <div class="row"><span>50% Advance</span><span>₹11,000</span></div>
+          <div class="row"><span>After Submission</span><span>₹11,000</span></div>
+          <div class="row" style="border-top:1px solid rgba(255,255,255,.25);margin-top:8px;padding-top:10px;font-size:18px"><span style="color:#fff">Total</span><span>₹22,000</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap sec" style="max-width:760px">
+  <p class="eyebrow">FAQ</p>
+  <h2>Frequently asked questions.</h2>
+  <div style="margin-top:26px;border-top:1px solid var(--line)">
+    <details class="rev"><summary>Is any prior experience required?</summary><p>No experience is needed. If you can write neatly in Hindi or English, you qualify. Complete project guidelines are provided before you begin.</p></details>
+    <details class="rev"><summary>Is the registration fee refundable?</summary><p>Yes, 100%. The registration amount is returned along with your project payment after successful submission and quality review.</p></details>
+    <details class="rev"><summary>How quickly is payment processed?</summary><p>Payment is processed within 24 hours of submission verification, directly to your registered UPI account.</p></details>
+    <details class="rev"><summary>Which locations are eligible?</summary><p>We deliver project materials via BlueDart &amp; Delhivery to 19,000+ pin codes across India.</p></details>
+  </div>
+  <div style="margin-top:32px"><a class="btn" href="https://t.me/+dmiScDj0XzVlODll" target="_blank" rel="noopener">Join Telegram Now</a></div>
+</section>
+
+<section class="band sec">
+  <div class="wrap rev">
+    <p class="eyebrow" style="color:rgba(255,255,255,.7)">Ready to begin?</p>
+    <h2>Ready to start earning?</h2>
+    <p style="margin:16px auto 0;max-width:560px;font-size:14px;opacity:.8">Your trust is important to us. Feel free to ask any questions on Telegram before proceeding. Our support team is ready to guide you.</p>
+    <a class="btn inv" style="margin-top:28px" href="https://t.me/+dmiScDj0XzVlODll" target="_blank" rel="noopener">Join Telegram Now</a>
+    <p style="margin-top:32px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.7">Mon–Sat, 10 AM – 7 PM IST · 19,000+ pin codes · Reply under 2 hours</p>
+  </div>
+</section>
+
+<div class="center" style="padding:24px;font-size:12px;color:var(--mut);border-top:1px solid var(--line)">© Vishav Book Publication. All rights reserved.</div>
+</div>
+
+<script>
+(function(){var els=document.querySelectorAll('#vbp-lp .rev');
+if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('on')});return;}
+var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}})},{threshold:.12,rootMargin:'0px 0px -60px 0px'});
+els.forEach(function(e){io.observe(e)});})();
+</script></body></html>
